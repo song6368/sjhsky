@@ -82,11 +82,6 @@ label2.grid(row=0, column = 0)
 
 def clickMe2(self) :
     messagebox.showinfo("현황", self+" 현재 감염자 수: "+df[self].iloc[0]+"\n금일 감염자 수: "+df[self].iloc[1]);
-
-
-wall = PhotoImage(file = "./covid19.jpg")
-wall_label = Label(image = wall)
-wall_label.place(x = -2,y = -2) 
     
     
 # 각 구별 버튼 생성

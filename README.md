@@ -87,9 +87,7 @@ label0 = tkinter.Label(win, image = s0)
 label0.grid(row = 6, column=0)     
 
 s1 = tkinter.PhotoImage(file = "c19.png")
-
-#label1 = tkinter.Label(win, image = s1)
-#label1.grid(row = 6, column=0)
+//해당 이미지는 '서울 정책 아카이브'사이트에서 가져옴
 
 str = StringVar()
 
